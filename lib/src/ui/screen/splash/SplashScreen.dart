@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:true_protection_customer/src/ui/screen/base/AppAssets.dart';
-import 'package:true_protection_customer/src/ui/screen/base/AppTheme.dart';
-import 'package:true_protection_customer/src/ui/screen/base/Dimens.dart';
-import 'package:true_protection_customer/src/ui/screen/base/NavigationController.dart';
-import 'package:true_protection_customer/src/ui/screen/route/Route.dart';
-import 'package:true_protection_customer/src/ui/widget/CommonWidgets.dart';
-import 'package:true_protection_customer/src/ui/widget/ScaledAnimationWidget.dart';
-import 'package:true_protection_customer/src/ui/widget/SlidingAnimatedWidget.dart';
-import 'package:true_protection_customer/src/ui/widget/TextWidgets.dart';
+import 'package:i_wallet/src/ui/screen/base/AppAssets.dart';
+import 'package:i_wallet/src/ui/screen/base/AppTheme.dart';
+import 'package:i_wallet/src/ui/screen/base/Dimens.dart';
+import 'package:i_wallet/src/ui/screen/base/NavigationController.dart';
+import 'package:i_wallet/src/ui/screen/route/Route.dart';
+import 'package:i_wallet/src/ui/widget/CommonWidgets.dart';
+import 'package:i_wallet/src/ui/widget/ScaledAnimationWidget.dart';
+import 'package:i_wallet/src/ui/widget/SlidingAnimatedWidget.dart';
+import 'package:i_wallet/src/ui/widget/TextWidgets.dart';
 
 // TODO need to wrap with HOC Components Later
 late Dimens dimens;

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:true_protection_customer/src/ui/screen/login/LoginScreen.dart';
-import 'package:true_protection_customer/src/ui/screen/onboarding/OnBoarding.dart';
-import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
+import 'package:i_wallet/src/ui/screen/login/LoginScreen.dart';
+import 'package:i_wallet/src/ui/screen/onboarding/OnBoarding.dart';
+import 'package:i_wallet/src/ui/screen/splash/SplashScreen.dart';
 
 class Route {
   Route._();

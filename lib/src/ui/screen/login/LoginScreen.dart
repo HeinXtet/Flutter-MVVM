@@ -1,11 +1,10 @@
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:true_protection_customer/src/ui/screen/base/AppScreen.dart';
-import 'package:true_protection_customer/src/ui/screen/base/ViewModelFactory.dart';
-import 'package:true_protection_customer/src/ui/screen/login/LoginViewModel.dart';
-import 'package:true_protection_customer/src/ui/widget/TextWidgets.dart';
-import 'package:true_protection_customer/src/ui/widget/button/PrimaryButton.dart';
+import 'package:i_wallet/src/ui/screen/base/AppScreen.dart';
+import 'package:i_wallet/src/ui/screen/base/ViewModelFactory.dart';
+import 'package:i_wallet/src/ui/screen/login/LoginViewModel.dart';
+import 'package:i_wallet/src/ui/widget/TextWidgets.dart';
+import 'package:i_wallet/src/ui/widget/button/PrimaryButton.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

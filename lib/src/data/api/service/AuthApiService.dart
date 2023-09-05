@@ -1,5 +1,5 @@
-import 'package:true_protection_customer/src/data/api/DataResponse.dart';
-import 'package:true_protection_customer/src/data/api/DioClient.dart';
+import 'package:i_wallet/src/data/api/DataResponse.dart';
+import 'package:i_wallet/src/data/api/DioClient.dart';
 import '../../model/response/Todo.dart';
 
 class AuthApiService {

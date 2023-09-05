@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
-import 'package:true_protection_customer/src/ui/state/AppViewModel.dart';
+import 'package:i_wallet/src/ui/screen/splash/SplashScreen.dart';
+import 'package:i_wallet/src/ui/state/AppViewModel.dart';
 
 class AppScreen extends StatelessWidget {
   final Widget child;

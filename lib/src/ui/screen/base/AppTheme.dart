@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:true_protection_customer/src/ui/screen/base/AppColor.dart';
-import 'package:true_protection_customer/src/ui/screen/base/NavigationController.dart';
+import 'package:i_wallet/src/ui/screen/base/AppColor.dart';
+import 'package:i_wallet/src/ui/screen/base/NavigationController.dart';
 
 class AppTheme {
   AppTheme();

@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:true_protection_customer/src/data/local/LocalDataManger.dart';
-import 'package:true_protection_customer/src/di/ConfigureDI.dart';
-import 'package:true_protection_customer/src/ui/state/AppViewModel.dart';
+import 'package:i_wallet/src/data/local/LocalDataManger.dart';
+import 'package:i_wallet/src/di/ConfigureDI.dart';
+import 'package:i_wallet/src/ui/state/AppViewModel.dart';
 
 abstract class AppModule {
   static Future<SharedPreferences> provideSharedPreferences() {

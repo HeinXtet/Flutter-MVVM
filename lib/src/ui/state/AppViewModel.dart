@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:true_protection_customer/src/data/local/LocalDataManger.dart';
+import 'package:i_wallet/src/data/local/LocalDataManger.dart';
 
 class AppViewModel extends GetxController {
   final LocalDataManagerImpl _localDataManager;

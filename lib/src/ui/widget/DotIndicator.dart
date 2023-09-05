@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
-import 'package:true_protection_customer/src/ui/widget/CommonWidgets.dart';
+import 'package:i_wallet/src/ui/screen/splash/SplashScreen.dart';
+import 'package:i_wallet/src/ui/widget/CommonWidgets.dart';
 
 Widget DotIndicator(bool isActive) {
   final primaryColor = appTheme.getDefaultThemeData.primaryColor;

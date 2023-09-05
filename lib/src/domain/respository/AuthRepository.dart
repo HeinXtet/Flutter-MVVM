@@ -1,7 +1,7 @@
-import 'package:true_protection_customer/src/data/api/DataResponse.dart';
-import 'package:true_protection_customer/src/data/api/service/AuthApiService.dart';
-import 'package:true_protection_customer/src/data/local/LocalDataManger.dart';
-import 'package:true_protection_customer/src/data/model/response/Todo.dart';
+import 'package:i_wallet/src/data/api/DataResponse.dart';
+import 'package:i_wallet/src/data/api/service/AuthApiService.dart';
+import 'package:i_wallet/src/data/local/LocalDataManger.dart';
+import 'package:i_wallet/src/data/model/response/Todo.dart';
 
 class AuthRepository {
   final AuthApiService _apiService;

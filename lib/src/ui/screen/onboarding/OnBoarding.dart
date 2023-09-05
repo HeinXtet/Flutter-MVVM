@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:true_protection_customer/src/ui/screen/route/Route.dart';
-import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
-import 'package:true_protection_customer/src/ui/widget/TextWidgets.dart';
-import 'package:true_protection_customer/src/ui/widget/button/PrimaryButton.dart';
-import 'package:true_protection_customer/src/ui/widget/DotIndicator.dart';
+import 'package:i_wallet/src/ui/screen/route/Route.dart';
+import 'package:i_wallet/src/ui/screen/splash/SplashScreen.dart';
+import 'package:i_wallet/src/ui/widget/TextWidgets.dart';
+import 'package:i_wallet/src/ui/widget/button/PrimaryButton.dart';
+import 'package:i_wallet/src/ui/widget/DotIndicator.dart';
 
 
 class OnBoardingData {

@@ -1,7 +1,7 @@
 
 import 'package:get/get.dart';
-import 'package:true_protection_customer/src/di/ConfigureDI.dart';
-import 'package:true_protection_customer/src/domain/respository/AuthRepository.dart';
+import 'package:i_wallet/src/di/ConfigureDI.dart';
+import 'package:i_wallet/src/domain/respository/AuthRepository.dart';
 
 import '../../../data/api/DataResponse.dart';
 import '../../../data/model/response/Todo.dart';

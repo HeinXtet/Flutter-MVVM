@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
+import 'package:i_wallet/src/ui/screen/splash/SplashScreen.dart';
 
 Widget HeadingText(String text,
     {TextStyle? style, bool isBold = true, Function? onPressed}) {
