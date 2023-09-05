@@ -5,7 +5,7 @@ import '../../data/local/LocalDataManger.dart';
 class ApiConfig {
   ApiConfig._();
 
-  static const baseUrl = "";
+  static const baseUrl = "https://jsonplaceholder.typicode.com/";
   static const int receiveTimeout = 15000;
 
   // connectTimeout
@@ -17,8 +17,8 @@ abstract class NetworkModule {
     final dio = Dio();
     dio
       ..options.baseUrl = ApiConfig.baseUrl
-      ..options.connectTimeout = ApiConfig.connectionTimeout
-      ..options.receiveTimeout = ApiConfig.receiveTimeout
+      ..options.connectTimeout = const Duration(minutes: 2)
+      ..options.receiveTimeout = const Duration(minutes: 2)
       ..options.headers = {'Content-Type': 'application/json; charset=utf-8'}
       ..interceptors.add(LogInterceptor(
         request: true,
@@ -38,7 +38,6 @@ abstract class NetworkModule {
             } else {
               print('Auth token is null');
             }
-
             return handler.next(options);
           },
         ),

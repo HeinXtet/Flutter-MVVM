@@ -1,5 +1,7 @@
+import 'package:true_protection_customer/src/data/api/DataResponse.dart';
 import 'package:true_protection_customer/src/data/api/service/AuthApiService.dart';
 import 'package:true_protection_customer/src/data/local/LocalDataManger.dart';
+import 'package:true_protection_customer/src/data/model/response/Todo.dart';
 
 class AuthRepository {
   final AuthApiService _apiService;
@@ -11,5 +13,17 @@ class AuthRepository {
 
   updateToken(String token) {
     _localDataManager.updateToken(token);
+  }
+
+  Future<DataResponse<Todo>> getData() async {
+    try {
+      Map<String, dynamic> value = await _apiService.login();
+      var response = Todo.fromJson(value);
+      print("response from API :: ${response.title}");
+      return DataSuccess(data: response);
+    }catch(e) {
+      print("API ERROR ${e.toString()}");
+      return DataError(exception:e.toString());
+    }
   }
 }

@@ -1,14 +1,15 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_alice/alice.dart';
 import 'package:true_protection_customer/firebase_options.dart';
-import 'package:true_protection_customer/service/notification.dart';
 import 'package:true_protection_customer/src/di/ConfigureDI.dart';
 import 'package:true_protection_customer/src/ui/screen/base/AppColor.dart';
 import 'package:true_protection_customer/src/ui/screen/base/AppTheme.dart';
 import 'package:true_protection_customer/src/ui/screen/base/NavigationController.dart';
 import 'package:true_protection_customer/src/ui/screen/route/Route.dart'
     as app_route;
+import 'package:true_protection_customer/src/ui/screen/splash/SplashScreen.dart';
 
 // global theming configs
 
@@ -37,6 +38,10 @@ class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    Alice alice = Alice(
+      showNotification: true,
+      showInspectorOnShake: true,
+    );
     return MaterialApp(
       navigatorKey: NavigationController.navigatorKey,
       routes: app_route.Route.route(context),
