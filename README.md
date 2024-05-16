@@ -1,4 +1,4 @@
-# i_wallet
+# Flutter MVVM template
 
 A new Flutter project.
 
